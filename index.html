@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/73bb0c3873.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  
+</head>
+
+<header>
+  <nav class=" w-full max-w-7xl mx-auto flex justify-between items-center my-16">
+    <div>
+      <h1 class="text-3xl"> <i class="fa-solid fa-gavel text-orange-300"></i>Justice</h1>
+    </div>
+    <div>
+      <ul class="flex gap-16 text-gray-500">
+        <li>Home <i class="fa-solid fa-angle-right"></i></li>
+        <li>Services <i class="fa-solid fa-angle-right"></i></li>
+        <li>Cases <i class="fa-solid fa-angle-right"></i></li>
+        <li>Blog<i class="fa-solid fa-angle-right"></i></li>
+        <li>Contact Us<i class="fa-solid fa-angle-right"></i></li>
+      </ul>
+    </div>
+    <div>
+     <!-- You can open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_3.showModal()"><span class="border-2 border-orange-200 rounded-md py-3 px-7 bg-orange-300"> Free Consultation</span></button>
+<dialog id="my_modal_3" class="modal">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <h3 class="text-lg font-bold">Hello!</h3>
+   <p class="bg-slate-200">Take free Consultation</p>
+   <p class="bg-slate-400">and be tension free</p>
+  </div>
+</dialog>
+    </div>
+    <div>
+
+  </nav>
+  <!-- ...banner section... -->
+  <section>
+    <div class="bg-[url('../images/banner.png')] h-screen bg-no-repeat  w-full max-w-7xl mx-auto">
+      <div class=" flex justify-center py-32 text-center">
+        <div class=" text-white">
+          <h1 class="text-5xl">We Provide Effective</h1>
+          <h1 class="text-5xl">Legal Solution</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
+          <p>have suffered alteration in some form, by injected humour.</p>
+          <button class="border bg-white  text-gray-500 mr-5 pl-3 pr-64 py-2 rounded">Search your
+            services</button><button class="border bg-orange-300 px-8 py-2 rounded ">search</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+
+<body>
+  <!-- ....practice-area... -->
+  <section>
+    <div class="w-full max-w-7xl mx-auto flex justify-center mb-16">
+      <div class="text-center">
+        <h1 class="text-2xl mb-5 font-serif">
+          The Legal Practice Area
+        </h1>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have
+        </p>
+        <p>
+          suffered alteration in some form, by injected humour.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ......law-----section...  -->
+  <section>
+    <div class="w-full max-w-7xl mx-auto grid grid-cols-3 ">
+      <div class="text-center p-16 border-b-2">
+        <h1 class="text-5xl text-orange-300 mb-5"> <i class="fa-solid fa-gavel"></i></h1>
+        <h1>Business Law</h1>
+        <p>There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+        <div class="flex justify-center mt-5  ">
+          <p class="border border-2 border-orange-200 w-8 text-center rounded-full bg-orange-200 hover:bg-orange-400 ">
+            <i class="fa-solid fa-arrow-right text-white"></i>
+          </p>
+        </div>
+      </div>
+      <div class=" border border-2 bg-slate-100 text-center p-16 ">
+        <h1 class="text-5xl text-orange-300 mb-5"> <i class="fa-solid fa-fire"></i></h1>
+        <h1>Criminal Law</h1>
+        <p>There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+        <div class="flex justify-center mt-5  ">
+          <p class="border border-2 border-orange-200 w-8 text-center rounded-full bg-orange-200"><i
+              class="fa-solid fa-arrow-right text-white"></i></p>
+        </div>
+      </div>
+      <div class="text-center p-16 border-b-2">
+        <h1 class="text-5xl text-orange-300 mb-5"> <i class="fa-solid fa-child-dress"></i></h1>
+        <h1>Child Support</h1>
+        <p>There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+        <div class="flex justify-center mt-5  ">
+          <p class="border border-2 border-orange-200 w-8 text-center rounded-full bg-orange-200"><i
+              class="fa-solid fa-arrow-right text-white"></i></p>
+        </div>
+      </div>
+      <div class="text-center px-16 py-5 ">
+        <h1 class="text-5xl text-orange-300 mb-5"><i class="fa-solid fa-scale-balanced"></i></h1>
+        <h1>Eductional Law</h1>
+        <p>There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+        <div class="flex justify-center mt-5  ">
+          <p class="border border-2 border-orange-200 w-8 text-center rounded-full bg-orange-200"><i
+              class="fa-solid fa-arrow-right text-white"></i></p>
+        </div>
+      </div>
+      <div class="border border-2  text-center px-16 py-5 ">
+        <h1 class="text-5xl text-orange-300 mb-5"><i class="fa-solid fa-user-group"></i></h1>
+        <h1>Divorce law</h1>
+        <p>There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+        <div class="flex justify-center mt-5  ">
+          <p class="border border-2 border-orange-200 w-8 text-center rounded-full bg-orange-200"><i
+              class="fa-solid fa-arrow-right text-white"></i></p>
+        </div>
+      </div>
+      <div class="text-center px-16 py-5 ">
+        <h1 class="text-5xl text-orange-300 mb-5"><i class="fa-solid fa-book"></i></h1>
+        <h1> Tax Law</h1>
+        <p>There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+        <div class="flex justify-center mt-5  ">
+          <p class="border border-2 border-orange-200 w-8 text-center rounded-full bg-orange-200"><i
+              class="fa-solid fa-arrow-right text-white"></i></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- .....client-opion... -->
+  <section>
+    <div class="w-full max-w-7xl mx-auto text-center my-28 space-y-5">
+      <h1 class="text-3xl font-semibold font-serif">What Our Client Say</h1>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>
+        suffered alteration in some form, by injected humour</p>
+    </div>
+  </section>
+   <!-- ...Aawlad Hossain... -->
+  
+
+
+
+</body>
+
+</html>
